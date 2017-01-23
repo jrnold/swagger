@@ -1,6 +1,6 @@
 swag_pkg <- function(g) {
 
-  message("  - generating pacakge R file")
+  message("  - generating package R file")
 
   g$RSWAG$PKGR <- paste(g$RSWAG$pkg_dir, "R", sprintf("%s-package.r", g$RSWAG$pkg_name), sep="/")
 
