@@ -1,10 +1,18 @@
 Package: swagger
-Title: Build R API Packages Automatically from Swagger <http://swagger.io> JSON Specifications
+Title: Build R API Packages Automatically from Swagger <http://swagger.io> JSON
+    Specifications
 Version: 0.0.0.9000
 Authors@R: c(person("Bob", "Rudis", email = "bob@rudis.net", role = c("aut", "cre")))
-Description:  Build R API Packages Automatically from Swagger <http://swagger.io> JSON Specifications
-Depends: R (>= 3.2.0)
+Description: Build R API Packages Automatically from Swagger <http://swagger.io>
+    JSON Specifications
+Depends:
+    R (>= 3.2.0)
 License: MIT + file LICENSE
 LazyData: true
-Suggests: testthat
-Imports: jsonlite, httr, magrittr
+Suggests:
+    testthat
+Imports:
+    jsonlite,
+    httr,
+    magrittr
+RoxygenNote: 5.0.1
